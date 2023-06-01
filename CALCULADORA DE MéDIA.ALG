@@ -1,7 +1,7 @@
 Algoritmo "Calculadora de Média"
 Var
-   N1, N2, N3, N4: inteiro
-   M: Real
+   N1, N2, N3, N4, M: Real 
+   
 Inicio
       Escreva("Informe sua Primeira Nota:")
       Leia(N1)
@@ -14,7 +14,7 @@ Inicio
 
       M <- (N1+N2+N3+N4)/ 4
 
-      Escreval("Sua Media é ", M)
+      Escreval("Sua Media é ", M:4:2)
       
       Se (M >= 7) Então
          Escreval("Aluno Aprovado")
